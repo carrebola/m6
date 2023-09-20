@@ -13,7 +13,16 @@ for(let i=0; i<10; i++){
 
 // Arrays
 const arrayVacio = []
-const diasSemana = ['lunes','martes','miércoles','jueves','viernes','sabado','domingo']
+const diasSemana = 
+[
+  'lunes',
+  'martes',
+  'miércoles',
+  'jueves',
+  'viernes',
+  'sabado',
+  'domingo'
+]
 
 console.log(diasSemana);
 //Muestra un elemento del array
@@ -52,7 +61,8 @@ lista2+= `</table>`
 document.querySelector('#dias').innerHTML = lista2
 
 // Creamos tabla a partir de json
-const jsonSillas =[
+const jsonSillas =
+[
     {
       "nombre": "Silla de Comedor",
       "material": "Madera",
@@ -86,3 +96,25 @@ const jsonSillas =[
       "disponibilidad": true
     }
   ]
+
+  console.log(jsonSillas[1].nombre)
+  let tabla = `
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+    <tbody>  
+  `
+  jsonSillas.forEach(element => {
+    console.log(element.nombre)
+    tabla += `<tr><td>${element.nombre}</td><td>${element.precio}</td></tr>`
+  });
+
+  tabla+= `
+    </tbody>
+  </table>
+  `
+  document.querySelector('table').innerHTML = tabla
