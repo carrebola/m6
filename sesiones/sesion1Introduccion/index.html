@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>S1-Introducción</title>
+		
+		<!-- Estilos css -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	</head>
+	<body>
+		<h1>Sesión 1 - Introducción</h1>
+		<div class="container">
+			<label for="inputEquipo" class="form-label">¿Cual es el mejor equipo del mundo?</label>
+			<input id="inputEquipo" type="text" class="form-control" value="Madrid">
+
+			<button id="botonEnviar" class="btn btn-success mt-2">Enviar</button>
+		</div>
+		
+		<script>
+			// Esto es javascript
+			
+			// alert("Estoy vivo!!!!!!")
+			console.log("Mensaje por la consola")
+			
+			// Ejercicio 1: Preguntas acertadas
+			// Crea un programa que pregunte de que equipo eres y si respondes "Barcelona" de felicita.
+
+			// equipo = prompt("¿De que equipo eres?")
+
+			// Seleccionamos el boton
+			const botonEnviar = document.querySelector("#botonEnviar")
+
+			// Capturar el evento click
+			botonEnviar.addEventListener("click", valorarEquipo)
+
+			function valorarEquipo(){
+				console.log("Has hecho click en el botón")
+				// Seleccionamos el input
+				const inputEquipo = document.querySelector("#inputEquipo")
+				console.log(inputEquipo)
+				
+				let equipo = inputEquipo.value
+
+				console.log("El valor del input es: ",equipo)
+				if(equipo == "Barcelona"){
+					console.log("Claro, el mejor equipo del mundo")
+				}else{
+					console.log("Mejor te vuelves de Barcelona")
+				}
+			}
+
+			
+		</script>
+	</body>
+</html>
