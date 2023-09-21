@@ -10,7 +10,7 @@ A partir de ejercicio anterior. Debemos crear un script que permita la siguiente
 ## Procedimiento
 Partiendo del ejercicio anterior, modifica la función que has creado para introducir los datos en la ficha añadiendo lo siguiente:
 1. Crea una variable con nombre 'bd' y declarala como array con []
-2. Crea una variable tipo objeto 'usuario' con la siguiente estructura:
+2. Crea una variable tipo objeto (llámala 'usuario') con la siguiente estructura:
 ```
 {
   nombre,
@@ -20,6 +20,7 @@ Partiendo del ejercicio anterior, modifica la función que has creado para intro
 }
 ```
 y guarda en el los valores que has obtenido de los inputs
+
 3. Añade el objeto al array utilizando .push()
 4. Crea y llama a la función pintaTabla que, de momento, solo mostrará un mensaje por consola
 5. Actualiza la función pintaTabla para que recorra el array bd y genere una tabla con los datos de los usuarios y, a continuación, la inyecte en le div correspondiente.
