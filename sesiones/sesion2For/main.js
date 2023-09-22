@@ -30,13 +30,13 @@ console.log(diasSemana[3]);
 // Mostrar todos los días de la semana
 const longitudArray = diasSemana.length
 for(let i=0; i<longitudArray; i++){
-  console.log(i,diasSemana[i])
+  // console.log(i,diasSemana[i])
 }
 
 // Otra manera de recorrer un array
 
 diasSemana.forEach((element, index) => {
-  console.log('forEach: ', index,element);
+  // console.log('forEach: ', index,element);
 });
 
 // Creamos una lista con los días de la semana y la inyectamos en un div del documento. Usamos for
@@ -97,7 +97,8 @@ const jsonSillas =
     }
   ]
 
-  console.log(jsonSillas[1].nombre)
+  // console.log('nombre de silla 1: ',jsonSillas[1].nombre)
+
   let tabla = `
   <table>
     <thead>
@@ -109,7 +110,7 @@ const jsonSillas =
     <tbody>  
   `
   jsonSillas.forEach(element => {
-    console.log(element.nombre)
+    // console.log(element.nombre)
     tabla += `<tr><td>${element.nombre}</td><td>${element.precio}</td></tr>`
   });
 
