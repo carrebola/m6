@@ -1,4 +1,4 @@
-# Fichas usuarios
+# Tablas usuarios
 A partir de ejercicio anterior. Debemos crear un script que permita la siguiente funcionalidad:
 - Cada vez que pulsemos el botón 'Crear ficha' añadiremos los datos del usuario a un array
 - A continuación actualizaremos la tabla con todos los usuarios.

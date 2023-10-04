@@ -99,23 +99,39 @@ const jsonSillas =
 
   // console.log('nombre de silla 1: ',jsonSillas[1].nombre)
 
-  let tabla = `
-  <table>
-    <thead>
-      <tr>
-        <th>Nombre</th>
-        <th>Precio</th>
-      </tr>
-    </thead>
-    <tbody>  
-  `
-  jsonSillas.forEach(element => {
-    // console.log(element.nombre)
-    tabla += `<tr><td>${element.nombre}</td><td>${element.precio}</td></tr>`
-  });
+  function pintaSillas(){
+    let tabla = `
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>  
+    `
+    jsonSillas.forEach(element => {
+      // console.log(element.nombre)
+      tabla += `<tr><td>${element.nombre}</td><td>${element.precio}</td></tr>`
+    });
+  
+    tabla+= `
+      </tbody>
+    </table>
+    `
+    document.querySelector('#tabla').innerHTML = tabla
+  }
 
-  tabla+= `
-    </tbody>
-  </table>
-  `
-  document.querySelector('table').innerHTML = tabla
+  
+  const sillaNueva = {
+    "nombre": "Silla de clase",
+    "material": "Acero ",
+    "color": "Plateado",
+    "estilo": "Contemporáneo",
+    "precio": 200.00,
+    "disponibilidad": true
+  }
+  jsonSillas.push(sillaNueva)
+  console.log(jsonSillas);
+
+pintaSillas()
