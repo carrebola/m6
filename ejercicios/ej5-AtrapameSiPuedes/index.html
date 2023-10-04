@@ -15,8 +15,11 @@
     .casilla{
       width: 30px;
       height: 30px;
-      border: 1px solid;
+      border: 1px solid white;
       margin: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .ficha{
       border: 1px solid;
@@ -36,7 +39,17 @@
   <div class="container">
     <h1>Atrápame si puedes</h1>
     <div class="tablero d-flex border" >
-      <div id="casillas1" class="casillas flex flex-column bg-primary">
+      <div id="casillas1" class="casillas flex flex-column bg-success">
+        <div id="c20" class="casilla"></div>
+        <div id="c19" class="casilla"></div>
+        <div id="c18" class="casilla"></div>
+        <div id="c17" class="casilla"></div>
+        <div id="c16" class="casilla"></div>
+        <div id="c15" class="casilla"></div>
+        <div id="c14" class="casilla"></div>
+        <div id="c13" class="casilla"></div>
+        <div id="c12" class="casilla"></div>
+        <div id="c11" class="casilla"></div>
         <div id="c10" class="casilla"></div>
         <div id="c9" class="casilla"></div>
         <div id="c8" class="casilla"></div>
@@ -46,12 +59,22 @@
         <div id="c4" class="casilla"></div>
         <div id="c3" class="casilla"></div>
         <div id="c2" class="casilla"></div>
-        <div id="c1" class="casilla"></div>
+        <div id="c1" class="casilla"><div class="ficha jugador1"></div></div>
         <div id="dado1">
-          <button class="btn btn-light m-2 small">Jugador 1</button>
+          <button id="" class="btn btn-light m-2 small">Jugador 1</button>
         </div>
       </div>
-      <div id="casillas2" class="casillas flex flex-column">
+      <div id="casillas1" class="casillas flex flex-column bg-primary">
+        <div id="c20" class="casilla"></div>
+        <div id="c19" class="casilla"></div>
+        <div id="c18" class="casilla"></div>
+        <div id="c17" class="casilla"></div>
+        <div id="c16" class="casilla"></div>
+        <div id="c15" class="casilla"></div>
+        <div id="c14" class="casilla"></div>
+        <div id="c13" class="casilla"></div>
+        <div id="c12" class="casilla"></div>
+        <div id="c11" class="casilla"></div>
         <div id="c10" class="casilla"></div>
         <div id="c9" class="casilla"></div>
         <div id="c8" class="casilla"></div>
@@ -61,7 +84,10 @@
         <div id="c4" class="casilla"></div>
         <div id="c3" class="casilla"></div>
         <div id="c2" class="casilla"></div>
-        <div id="c1" class="casilla"></div>
+        <div id="c1" class="casilla"><div class="ficha jugador2"></div></div>
+        <div id="dado1">
+          <button id="" class="btn btn-light m-2 small">Jugador 2</button>
+        </div>
       </div>
     </div>
     
