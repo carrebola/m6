@@ -20,3 +20,5 @@ Crea una función que devuelva una cadena de 10 letras con valores aleatorios
 
 ## Ejercicio 4.5 - Generador de emoticonos
 Crea una función que genere un emoticono aleatorio cada vez
+
+
