@@ -22,3 +22,5 @@ Crea una función que devuelva una cadena de 10 letras con valores aleatorios
 Crea una función que genere un emoticono aleatorio cada vez
 
 
+
+
