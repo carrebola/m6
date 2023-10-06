@@ -21,6 +21,11 @@ Crea una función que devuelva una cadena de 10 letras con valores aleatorios
 ## Ejercicio 4.5 - Generador de emoticonos
 Crea una función que genere un emoticono aleatorio cada vez
 
+## INTERFICIE
+
+![image](https://github.com/carrebola/m6/assets/61465929/09135a41-00ce-4af3-9664-996507a1cb4e)
+
+
 
 
 
