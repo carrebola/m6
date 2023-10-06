@@ -1,4 +1,4 @@
-# Ejercicio 4
+# Ejercicio 4 - Math y String
 ## Ejercicio 4.1 - Aleatorio
 Crea una función que recibe el numero inicial y final y nos devuela un número aleatório entre estos dos valores
 ## Ejercicio 4.2 - Strings
