@@ -35,14 +35,34 @@ console.log('Miramos si el texto contiene la palabra es ', texto.search("es"));
 
 console.log('match, Miramos si el texto contiene la palabra es ', texto.match("es").index);
 
-console.log('Miramos si el texto contiene la palabra es ', texto.matchAll("posible"));
+
 const iterator = texto.matchAll("es")
 for (let ocurrence of iterator) {
   console.log('coincidencias' , ocurrence.index);
 }
 
-nuevoTexto = texto.replaceAll(" es ", "<span>es</span>")
+nuevoTexto = texto.replaceAll("es", "<mark>es</mark>")
 console.log(nuevoTexto);
+
+// Convetir en minusculas
+const nuevoTextoMinus = nuevoTexto.toLowerCase()
+document.querySelector('#texto2').innerHTML = nuevoTextoMinus;
+
+// Eliminar espacios
+const nombre = "   Carlos     "
+const apellidos = "    Arrebola   "
+console.log(nombre.trim()+apellidos.trim());
+
+let letter = "*"
+letter.codePointAt(0); 
+console.log('codigo para la letra ', letter.codePointAt(0));  
+
+console.log('letra para el código ',String.fromCodePoint(65));             // "A"
+
+// 122
+
+
+
 
 
 

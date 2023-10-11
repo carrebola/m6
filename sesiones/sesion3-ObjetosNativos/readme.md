@@ -1,1 +1,21 @@
-# Sesión 3- Objeteos Nativos
+# Sesión 3 - Objetos Nativos
+
+- Math.round(numero)
+- Math.ceil(numero)
+- Math.floor(numero)
+- Math.trunc(numero)
+- length
+- texto.charAt(2)
+- texto.indexOf("posible")
+- repeat(3)
+- frase.substring(4, 7)
+- texto.split(" ").length
+- texto.includes("es")
+- texto.search("es")
+- texto.match("es").index
+- texto.matchAll("es")
+- texto.replaceAll("es", "<mark>es</mark>")
+- nuevoTexto.toLowerCase()
+- nombre.trim()
+- letter.codePointAt(0)
+- String.fromCodePoint(65))
