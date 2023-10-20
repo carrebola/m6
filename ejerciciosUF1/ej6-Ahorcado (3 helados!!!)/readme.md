@@ -23,4 +23,8 @@ Crea el juego del ahorcado.
 10. Cada vez que se sume un fallo, muestra una parte del ahorcado.
 
 ## Figma
-![Alt text](image.png)
+![image](https://github.com/carrebola/m6/assets/61465929/ceb42790-f546-44c0-8577-46b4a659189f)
+![image](https://github.com/carrebola/m6/assets/61465929/75ae1dc1-0213-4efc-8b5d-0daa585577e5)
+![image](https://github.com/carrebola/m6/assets/61465929/c6dbc0f4-d4a2-4012-957c-2d19af48b2fe)
+
+
