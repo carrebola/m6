@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sesión 5 - localStorage</title>
+</head>
+<body>
+  <h1>Sesión 5 - localStorage</h1>
+  <h3>Este es el mensaje del localstorge: <span id="mensajeSpan"> vacío</span></h3>
+  <input id="nombre" type="text" placeholder="nombre">
+  <input id="mensaje" type="text" placeholder="mensaje">
+  <button id="guardar">guardar</button>
+
+  <script>
+    const nombre = document.querySelector('#nombre');
+    const mensaje = document.querySelector('#mensaje');
+
+    const boton = document.querySelector('button');
+
+    boton.addEventListener('click', function(){
+      const mensajeValue = mensaje.value
+      const nombreValue = nombre.value
+      
+      const objeto = {
+        mensaje: mensajeValue,
+        nombre: nombreValue
+      }
+      console.log('objeto: ',objeto);
+      // Covertimos objeto a texto
+      const texto = JSON.stringify(objeto)
+      console.log('texto: ',texto);
+      // Guardamos en localstorage
+      localStorage.setItem('textoLocal', texto, ) 
+    })
+
+    // Leer del localStorage
+    const textoLocal = localStorage.getItem('textoLocal')
+    console.log('Texto local: ', textoLocal);
+    document.querySelector('#mensajeSpan').innerHTML = textoLocal
+    // convertimos texto json a objeto
+    const objetoJson = JSON.parse(textoLocal)
+    nombre.value = objetoJson.nombre
+    mensaje.value = objetoJson.mensaje
+  </script>
+</body>
+</html>
