@@ -45,7 +45,7 @@ export default defineConfig({
  `npm i mocha -D`
  `npm i chai -D`
 2. Configuramos package.json para que se ejecuten los archivos usando mocha `test: mocha`
-3. Creamos la carpeta para los test y un archivo con los tests de las funciones. De momento la función suma()
+3. Creamos la carpeta para los test y un archivo `funciones.test.js` con los tests de las funciones. De momento la función suma(). Recuerda que hay que importar las funciones y las librerias que uses.
   Como funciona mocha y chai: https://johnserrano.co/blog/test-con-mocha-y-chai
 
 5.Ejecutamos los test con `npm run test` 

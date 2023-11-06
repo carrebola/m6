@@ -1,0 +1,19 @@
+{
+  "name": "sesion6-node",
+  "version": "1.0.0",
+  "description": "1. Instalamos nodejs\r 2. Creamos proyecto con `npm init`\r 3. Instalamos eslint con `npm install standard -D`\r 4.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  }
+}
