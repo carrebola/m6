@@ -18,3 +18,5 @@
 1. Creamos carpeta `componentes` con header.js, main.js y footer.js
 2. Creamos los componentes (archivos js con un template para inyectar)
 3. Desde main.js cargamos componentes y los inyectamos en las etiquetas header, main y footer
+   
+   
