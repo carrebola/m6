@@ -1,4 +1,4 @@
-export const cervezas = [
+export const cervezasBD = [
   {
     nombre: 'IPA',
     tipo: 'India Pale Ale',

@@ -1,9 +1,8 @@
-export default {
-  template: // html
+export const footer = (nombre) => {
+  const template = // html
     `
-  <h1>Footer</h1>
-  `,
-  script: () => {
-    console.log('Soy footer')
-  }
+    <h3>Autor: <em><span id="autor">${nombre}</span></em></h3>
+    `
+  // Devolvemos el html con el nombre integrado en el template
+  return template
 }

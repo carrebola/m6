@@ -1,6 +1,6 @@
-import { cervezas } from './cervezas.js'
+import { cervezasBD } from './cervezasBD.js'
 export const muestraCervezas = () => {
-  cervezas.forEach(element => {
+  cervezasBD.forEach(element => {
     console.log('nombre cerveza: ', element.nombre)
   })
 }
