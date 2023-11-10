@@ -2,15 +2,19 @@
 ## Node, npm
 1. Instalamos nodejs
 2. Creamos proyecto con `npm init`
-3. Creamos carpeta src con index.html y main.js
-4. Vinculamos archivos y probamos
+3. Omitimos la carpeta node_modules de git con .gitignore
+4. Creamos carpeta src con index.html y main.js
+5. Vinculamos archivos y probamos
 ## Linter 
-5. Instalamos eslint con `npm install standard -D`y configuramos package.json con
+1. Instalamos eslint con `npm install standard -D`y configuramos package.json con
     "eslintConfig": {
     "extends": [
       "./node_modules/standard/eslintrc.json"
     ]
   }
+  Tutorial: https://www.cesarguerra.mx/configuracion-rapida-de-eslint-con-standard-js-para-proyectos-de-javascript-y-de-react-con-vite-js/
+
+  Tutorial de como configurar vscode para que con ctrl+s se formatee el código
 ## Import y export 
 1. Creamos la carpeta bd y dentro ponemos un archivo 'cervezas.js' que exportará 'cervezas', (un array de datos)
 2. Creamos carpeta misfunciones y dentro creamos el archivo consoleCervezas.js (una función que usa el array). La exportamos
