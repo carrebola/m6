@@ -17,7 +17,7 @@
 - Crea una vista amb el nom 'Login'.
 - 
 ### Tasca 5. Component Header
-- Crea un component 'header' amb el nom de l'aplicació 'Gestió d'incidències FPLLEFIA' i un botó per a registrar-se. Injèctal al header de l'index.html.
+- Crea un component 'header' amb el nom de l'aplicació 'Gestió d'incidències FPLLEFIA' i un botó per a registrar-se. Injecta'l al header de l'index.html.
 
 ### Tasca 6. Lògica de header
 - Programa la lògica perquè en fer clic als botons, es carreguin les diferents vistes al main.
