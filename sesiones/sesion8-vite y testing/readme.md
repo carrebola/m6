@@ -8,7 +8,8 @@
 7. Configuramos vite.config.js:
    Ejemplo de vite.config.js
 
-  // vite.config.js
+```javascript title="vite.config.js"
+// vite.config.js
 import { defineConfig } from 'vite'
 
 export default defineConfig({
@@ -28,7 +29,7 @@ export default defineConfig({
     },
   },
 })
-
+```
 ## Funciones
 
 1. Creamos archivo `funciones.js` y programamos función suma() que exportamos
