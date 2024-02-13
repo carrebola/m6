@@ -6,7 +6,7 @@
 4. this para hacer referencia a las propiedades y métodos de la clase
 5. Pasar parametros de inicialización a través del constructor
 
-6. Propiedades privadas y publicas
-7. getters y setters
+6. getters y setters
+7. Métodos para acceder a propiedades
 8. Herencia
 9. Métodos statics 
