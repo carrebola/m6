@@ -1,4 +1,8 @@
 # UF4 Exercici 2
+L'objectiu d'aquest exercici consisteix en experimentar les diferents maneres de fer peticions asincrones a una api.
+
+![alt text](image.png)
+
 ## Exercici 2.0
 Crea una funció que rep un array com el del model `ejemploDePeticion` i injecta en el document un conjunt de `cards` com les del prototip html.
 ## Exercici 2.1
