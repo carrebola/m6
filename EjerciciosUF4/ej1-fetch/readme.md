@@ -3,6 +3,8 @@
 L'objectiu és crear una web que consumeixi les dades de l'API REST 'Jsonplaceholder'. 
 (Pots descarregar-te la interficie)
 
+*Realitza els següents exercicis en una branca amb nom '**fetch**'*
+
 ![alt text](image-3.png)
 
 ## Exercici 1.1 Taula amb informació dels usuaris
