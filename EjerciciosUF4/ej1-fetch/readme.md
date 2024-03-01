@@ -1,4 +1,4 @@
-# UF4 Exercicis
+# UF4 Exercici 1
 ## Exercicis amb FETCH
 L'objectiu és crear una web que consumeixi les dades de l'API REST 'Jsonplaceholder'. 
 (Pots descarregar-te la interficie)
