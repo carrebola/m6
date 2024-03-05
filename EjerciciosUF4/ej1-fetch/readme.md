@@ -22,7 +22,5 @@ Crea una web que mostri, a partir de l'API de Jsonplaceholder:
 
 ### Exercici 1.4 Comentaris
 - Mostra, al costat, els comentaris relacionats amb el post seleccionat .
-### Exercici 1.5 Els meus comentaris
-- Mostra els comentaris realitzats per l'usuari de la fitxa.
 
 ![alt text](image-2.png)
